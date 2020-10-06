@@ -23,24 +23,24 @@ Namespaces are one honking great idea -- let's do more of those!"""
 string_email = 'godunovaleksandr804@gmail.com'
 string_join = string_lb_ts + string_email
 
-# # подсчёт букв
-# count_letters = 0
-# for element in string_join:
-#     if element.isalpha():
-#         count_letters += 1
-#     else:
-#         continue
-# print(count_letters)
-#
-# # подсчёт гласных букв
-# count_vowels_letters = 0
-# set_vowels_letters = set('aeyuio')
-# for element_ in string_join:
-#     if element_ in set_vowels_letters:
-#         count_vowels_letters += 1
-#     else:
-#         continue
-# print(count_vowels_letters)
+# подсчёт букв
+count_letters = 0
+for element in string_join:
+    if element.isalpha():
+        count_letters += 1
+    else:
+        continue
+print(count_letters)
+
+# подсчёт гласных букв
+count_vowels_letters = 0
+set_vowels_letters = set('aeyuio')
+for element_ in string_join:
+    if element_ in set_vowels_letters:
+        count_vowels_letters += 1
+    else:
+        continue
+print(count_vowels_letters)
 
 # печать 18-ого символа
 count_join_string = 0
