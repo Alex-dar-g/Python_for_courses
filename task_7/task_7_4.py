@@ -1,8 +1,3 @@
-# В стадии разработки
-
-
-# import this as lb_ts
-
 string_lb_ts = f"""The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
